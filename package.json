@@ -3,6 +3,8 @@
     "author": "Ryan Dawes",
     "private": true,
     "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.4.0",
+        "@fortawesome/react-fontawesome": "^0.2.0",
         "@types/node": "18.15.11",
         "@types/react": "18.0.35",
         "@types/react-dom": "18.0.11",
@@ -14,12 +16,13 @@
         "typescript": "5.0.4"
     },
     "devDependencies": {
+        "@fortawesome/fontawesome-free": "^6.4.0",
         "autoprefixer": "^10.4.14",
-        "postcss": "^8.4.22",
-        "tailwindcss": "^3.3.1",
         "npm-run-all": "latest",
+        "postcss": "^8.4.22",
         "prettier": "latest",
-        "prettier-plugin-tailwindcss": "latest"
+        "prettier-plugin-tailwindcss": "latest",
+        "tailwindcss": "^3.3.1"
     },
     "scripts": {
         "dev": "next dev",
