@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
-function GithubStars({ repo }) {
+interface GithubStarsProps {
+  repo: string;
+}
+
+function GithubStars({ repo }: GithubStarsProps) {
   const [stars, setStars] = useState('');
 
   useEffect(() => {
@@ -18,10 +22,10 @@ function GithubStars({ repo }) {
 
   return (
     <div className="block mt-5 py-1 rounded-md text-center text-xs font-semibold text-slate-900 shadow-sm bg-yellow-300 outline outline-1 outline-offset-1 outline-slate-800">
-        <span className="">
-            {stars}</span>&nbsp;
-            <FontAwesomeIcon icon={faStar} name="Star" className="align-center"/>
-            's on Github
+      <span className="">
+        {stars}</span>&nbsp;
+      <FontAwesomeIcon icon={faStar} name="Star" className="align-center" />
+      &apos;s on Github
     </div>
   );
 }
