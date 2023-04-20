@@ -21,7 +21,7 @@ function GithubStars({ repo }: GithubStarsProps) {
   }, [repo]);
 
   return (
-    <div className="block mt-5 py-1 rounded-md text-center text-xs font-semibold text-slate-900 shadow-sm bg-yellow-300 outline outline-1 outline-offset-1 outline-slate-800">
+    <div className="block max-w-fit mt-5 py-1 px-2 rounded-md text-center text-xs font-semibold text-slate-900 shadow-sm bg-yellow-300 outline outline-1 outline-offset-1 outline-slate-800">
       <span className="">
         {stars}</span>&nbsp;
       <FontAwesomeIcon icon={faStar} name="Star" className="align-center" />
