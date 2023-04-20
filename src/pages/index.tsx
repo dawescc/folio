@@ -13,12 +13,12 @@ export default function Home() {
     return (
         <>
             <header className="header sticky top-0 bg-slate-900 flex justify-center py-2">   
-                <h2 className="text-5xl font-bold leading-9 tracking-tight text-slate-100 py-2">
+                <h2 className="text-5xl font-bold leading-9 tracking-tight text-slate-100 py-1">
                     folio
                 </h2>
             </header>
             <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-                <div className="lg:max-w-96 mx-auto mt-8 max-w-2xl rounded-3xl bg-slate-800 ring-1 ring-slate-500 sm:mt-10 lg:flex">
+                <div className="lg:max-w-96 mx-auto mt-4 max-w-2xl rounded-3xl bg-slate-800 ring-1 ring-slate-500 sm:mt-6 lg:flex">
                     <div className="p-8 sm:p-10 lg:flex-auto">
                         <h3 className="text-3xl font-bold tracking-tight text-gray-100">emems</h3>
                         <h4 className="flex-none text-xs font-semibold leading-6 text-slate-300">2023</h4>
