@@ -26,7 +26,7 @@ function GithubRelease({ repo }: GithubReleaseProps) {
     >
       <div className="">
         <p>Download</p>
-        <p>{version} <FontAwesomeIcon icon={faDownload} name="Download" className="text-slate-900 hover:text-white align-baseline" /></p>
+        <p>{version} <FontAwesomeIcon icon={faDownload} name="Download" className="align-baseline" /></p>
       </div>
     </a>
   );
