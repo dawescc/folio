@@ -22,7 +22,7 @@ function GithubRelease({ repo }: GithubReleaseProps) {
 
   return (
     <a href={`https://github.com/dawescc/${repo}/archive/refs/tags/${version}.zip`}
-      className="mt-10 block w-full rounded-md bg-slate-300 px-3 py-2 text-center text-sm font-semibold text-slate-900 shadow-sm hover:bg-pink-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-300"
+      className="mt-10 block w-full rounded-md bg-slate-300 px-3 py-2 text-center text-sm font-semibold text-slate-900 shadow-sm hover:bg-slate-950 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-950"
     >
       <div className="">
         <p>Download</p>
